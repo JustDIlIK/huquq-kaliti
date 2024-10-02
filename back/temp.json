@@ -1,0 +1,238 @@
+{
+  "id": 17,
+  "subcategory_id": 1,
+  "names": {
+    "ru": "doc 111",
+    "uz": "doc 111",
+    "en": "doc 111"
+  },
+  "slug": "doc-111",
+  "order": 111,
+  "new_sections": [
+    {
+      "texts": {
+        "ru": "new section 1",
+        "uz": "new section 1",
+        "en": "new section 1"
+      },
+      "options": {
+        "align": "string",
+        "color": "string",
+        "size": 0,
+        "weight": 0,
+        "style": "string"
+      },
+      "next_new_line": true,
+      "order": 11,
+      "inputs": [
+        {
+          "texts": {
+            "ru": "new input 1",
+            "uz": "new input 1",
+            "en": "new input 1"
+          },
+          "options": {
+            "align": "string",
+            "color": "string",
+            "size": 0,
+            "weight": 0,
+            "style": "string",
+            "type": "string"
+          },
+          "next_new_line": true,
+          "order":111
+        }
+      ]
+    },
+    {
+      "texts": {
+        "ru": "new section 2",
+        "uz": "new section 2",
+        "en": "new section 2"
+      },
+      "options": {
+        "align": "string",
+        "color": "string",
+        "size": 0,
+        "weight": 0,
+        "style": "string"
+      },
+      "next_new_line": true,
+      "order": 12,
+      "inputs": [
+        {
+          "texts": {
+            "ru": "new input 2",
+            "uz": "new input 2",
+            "en": "new input 2"
+          },
+          "options": {
+            "align": "string",
+            "color": "string",
+            "size": 0,
+            "weight": 0,
+            "style": "string",
+            "type": "string"
+          },
+          "next_new_line": true,
+          "order": 112
+        }
+      ]
+    },
+    {
+      "texts": {
+        "ru": "new section 3",
+        "uz": "new section 3",
+        "en": "new section 3"
+      },
+      "options": {
+        "align": "string",
+        "color": "string",
+        "size": 0,
+        "weight": 0,
+        "style": "string"
+      },
+      "next_new_line": true,
+      "order": 13,
+      "inputs": [
+        {
+          "texts": {
+            "ru": "new input 3",
+            "uz": "new input 3",
+            "en": "new input 3"
+          },
+          "options": {
+            "align": "string",
+            "color": "string",
+            "size": 0,
+            "weight": 0,
+            "style": "string",
+            "type": "string"
+          },
+          "next_new_line": true,
+          "order": 113
+        }
+      ]
+    }
+  ],
+  "deleted_section_ids": [],
+  "sections": [
+    {
+      "new_inputs": [],
+      "deleted_input_ids": [],
+      "texts": {
+        "ru": "1 section 1",
+        "uz": "1 section 1",
+        "en": "1 section 1"
+      },
+      "options": {
+        "align": "string",
+        "color": "string",
+        "size": 0,
+        "weight": 0,
+        "style": "string"
+      },
+      "next_new_line": true,
+      "order": 1,
+      "inputs": [
+        {
+          "texts": {
+            "ru": "input 1",
+            "uz": "input 1",
+            "en": "input 1"
+          },
+          "options": {
+            "align": "string",
+            "color": "string",
+            "size": 0,
+            "weight": 0,
+            "style": "string",
+            "type": "string"
+          },
+          "next_new_line": true,
+          "order": 1,
+          "id": 6
+        }
+      ],
+      "id": 13
+    },
+    {
+      "new_inputs": [],
+      "deleted_input_ids": [],
+      "texts": {
+        "ru": "2 section 2",
+        "uz": "2 section 2",
+        "en": "2 section 2"
+      },
+      "options": {
+        "align": "string",
+        "color": "string",
+        "size": 0,
+        "weight": 0,
+        "style": "string"
+      },
+      "next_new_line": true,
+      "order": 2,
+      "inputs": [
+        {
+          "texts": {
+            "ru": "input 2",
+            "uz": "input 2",
+            "en": "input 2"
+          },
+          "options": {
+            "align": "string",
+            "color": "string",
+            "size": 0,
+            "weight": 0,
+            "style": "string",
+            "type": "string"
+          },
+          "next_new_line": true,
+          "order": 2,
+          "id": 7
+        }
+      ],
+      "id": 14
+    },
+    {
+      "new_inputs": [],
+      "deleted_input_ids": [],
+      "texts": {
+        "ru": "3 section 3",
+        "uz": "3 section 3",
+        "en": "3 section 3"
+      },
+      "options": {
+        "align": "string",
+        "color": "string",
+        "size": 0,
+        "weight": 0,
+        "style": "string"
+      },
+      "next_new_line": true,
+      "order": 3,
+      "inputs": [
+        {
+          "texts": {
+            "ru": "input 3",
+            "uz": "input 3",
+            "en": "input 3"
+          },
+          "options": {
+            "align": "string",
+            "color": "string",
+            "size": 0,
+            "weight": 0,
+            "style": "string",
+            "type": "string"
+          },
+          "next_new_line": true,
+          "order": 3,
+          "id": 8
+        }
+      ],
+      "id": 15
+    }
+  ]
+}

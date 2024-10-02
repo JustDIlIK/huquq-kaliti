@@ -1,0 +1,99 @@
+import React, {useState} from 'react';
+import MainTitle from "../../ui/MainTitle.jsx";
+import SpecialistCard from "../../specialists/ui/SpecialistCard.jsx";
+import {useTranslation} from "react-i18next";
+
+const ServiceSpecialists = ({service}) => {
+    const {t, i18n} = useTranslation();
+    const [specialists, setSpecialists] = useState([
+        {
+            id: 1,
+            name: 'Сидоров Сергей',
+            post: 'Юрист',
+            age: '35',
+            city: 'Ташкент',
+            feedbacks: '15',
+            pro: true,
+            img: '/img/specialists/1.png'
+        },
+        {
+            id: 2,
+            name: 'Сидоров Сергей',
+            post: 'Юрист',
+            age: '35',
+            city: 'Ташкент',
+            feedbacks: '15',
+            pro: true,
+            img: '/img/specialists/2.png'
+        },
+        {
+            id: 3,
+            name: 'Сидоров Сергей',
+            post: 'Юрист',
+            age: '35',
+            city: 'Ташкент',
+            feedbacks: '15',
+            pro: true,
+            img: '/img/specialists/3.png'
+        },
+        {
+            id: 4,
+            name: 'Сидоров Сергей',
+            post: 'Юрист',
+            age: '35',
+            city: 'Ташкент',
+            feedbacks: '15',
+            pro: true,
+            img: '/img/specialists/4.png'
+        },
+        {
+            id: 5,
+            name: 'Сидоров Сергей',
+            post: 'Юрист',
+            age: '35',
+            city: 'Ташкент',
+            feedbacks: '15',
+            pro: true,
+            img: '/img/specialists/5.png'
+        },
+        {
+            id: 6,
+            name: 'Сидоров Сергей',
+            post: 'Юрист',
+            age: '35',
+            city: 'Ташкент',
+            feedbacks: '15',
+            pro: true,
+            img: '/img/specialists/1.png'
+        }
+    ])
+
+    return (
+        <section id={'specialists'} className={'pb-[112px]'}>
+            <div className="container">
+                <MainTitle
+                    title={`Специалисты по услуге "${service.names[i18n.language]}"`}
+                />
+                <div className={'grid grid-cols-3 max_xl:grid-cols-2 max_md:grid-cols-1 gap-[30px] mt-10'}>
+                    {
+                        specialists.map((specialist, index) => (
+                            <SpecialistCard
+                                id={specialist.id}
+                                key={index}
+                                index={index}
+                                img={specialist.img}
+                                name={specialist.name}
+                                post={specialist.post}
+                                age={specialist.age}
+                                city={specialist.city}
+                                feedbacks={specialist.feedbacks}
+                            />
+                        ))
+                    }
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default ServiceSpecialists;
